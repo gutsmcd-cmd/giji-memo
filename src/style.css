@@ -1,0 +1,11 @@
+
+:root { --acc: #312E81; --acc-ink: #fff; --paper: #f6f4fb; }
+@media (prefers-color-scheme: dark) { :root { --paper: #14131c; } }
+body { background: var(--paper); }
+.meet { display: flex; flex-direction: column; gap: 2px; text-align: left; width: 100%; border: 0; background: transparent; padding: 12px 4px; min-height: 64px; }
+.meet-title { font-weight: 800; }
+.meet-sub { color: var(--muted); font-size: 0.85rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.meet-row { display: flex; align-items: stretch; gap: 4px; background: var(--card); border-radius: 16px; box-shadow: var(--shadow); padding: 4px 6px 4px 10px; }
+.action { display: flex; gap: 6px; align-items: center; }
+.action .who { width: 34%; flex: none; }
+.stack { display: flex; flex-direction: column; gap: 8px; }
