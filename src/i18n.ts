@@ -28,7 +28,7 @@ const ja = {
 };
 export type Dict = typeof ja;
 const en: Dict = {
-  app: 'Giji Memo',
+  app: 'Meeting Notes',
   sub: 'Not an AI transcription app. You write the notes yourself.',
   newMeeting: 'New meeting',
   empty: 'No meetings yet.',
